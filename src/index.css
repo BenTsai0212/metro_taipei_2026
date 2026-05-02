@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&family=Noto+Sans+TC:wght@400;500;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-metro: #0070BD;
+  --font-display: "Montserrat", "Noto Sans TC", sans-serif;
+  --font-sans: "Noto Sans TC", sans-serif;
+}
+
+.text-vertical { writing-mode: vertical-rl; }
+.mask-diagonal { clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%); }
+.ui-shadow { box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3); }
+
+::selection {
+  background-color: var(--color-metro);
+  color: white;
+}
